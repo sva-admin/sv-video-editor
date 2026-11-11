@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "project": {"id": "demo-film", "title": "Demo Film"},
+  "timeline": {
+    "fps": {"numerator": 24, "denominator": 1},
+    "duration_frames": 240,
+    "edit_mode": "hard_cut"
+  },
+  "assets": [
+    {
+      "id": "asset-opening",
+      "path": "sources/opening.mov",
+      "kind": "video",
+      "duration": {"frames": 288, "fps": {"numerator": 24, "denominator": 1}},
+      "rights": {"status": "pending", "evidence": null}
+    }
+  ],
+  "chapters": [
+    {"id": "chapter-opening", "title": "Opening", "start_frame": 0, "end_frame": 240}
+  ],
+  "lines": [
+    {"id": "line-opening", "chapter_id": "chapter-opening", "text": "Replace this invented line with a verified selection."}
+  ],
+  "clips": [
+    {
+      "id": "clip-opening",
+      "asset_id": "asset-opening",
+      "chapter_id": "chapter-opening",
+      "line_ids": ["line-opening"],
+      "start_frame": 0,
+      "end_frame": 240,
+      "source_in_frame": 24,
+      "source_out_frame": 264,
+      "handle_before_frames": 24,
+      "handle_after_frames": 24
+    }
+  ],
+  "approvals": {
+    "picture": {"status": "pending", "reviewer": null, "evidence": null},
+    "audio": {"status": "pending", "reviewer": null, "evidence": null},
+    "owner": {"status": "pending", "reviewer": null, "evidence": null}
+  },
+  "final_status": "pending"
+}

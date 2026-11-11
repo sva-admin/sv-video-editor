@@ -1,0 +1,7 @@
+interface:
+  display_name: "SV Video Editor"
+  short_description: "Plan, edit and verify films from supplied footage"
+  brand_color: "#BD7A31"
+  default_prompt: "Use $sv-video-editor to build a source-backed edit plan and carry out the authorized local edit with separate technical, editorial and approval checks."
+policy:
+  allow_implicit_invocation: true

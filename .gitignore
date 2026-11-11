@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.env
+.env.*
+node_modules/
+private/
+work/
+outputs/
+*.mp4
+*.mov
+*.mxf
+*.wav
+*.mp3
+*.zip

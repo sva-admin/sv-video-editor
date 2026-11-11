@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "candidate_path": null,
+  "candidate_sha256": null,
+  "normal_speed_picture_review": "pending",
+  "listening_review": "pending",
+  "captions_review": "pending",
+  "facts_and_names_review": "pending",
+  "rights_review": "pending",
+  "owner_acceptance": "pending",
+  "notes": [],
+  "final_status": "pending"
+}
